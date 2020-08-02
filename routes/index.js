@@ -1,5 +1,5 @@
 const router = require("express").Router();
 
-router.use("/api", require("./ChangeApi"));
+router.use("/api", require("./ChangeCoinApi"));
 
 module.exports = router;

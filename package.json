@@ -11,6 +11,7 @@
     "morgan": "^1.10.0"
   },
   "scripts": {
-    "dev": "concurrently \"nodemon server.js\" \"cd client && yarn start\" "
+    "dev": "concurrently \"nodemon server.js\" \"cd client && yarn start\"",
+    "start": "concurrently \"node server.js\" \"cd client && yarn start\""
   }
 }
